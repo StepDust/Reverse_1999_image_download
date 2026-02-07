@@ -1,0 +1,15 @@
+[project]
+name = "reverse-1999-image-download"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.13.3",
+    "dust-utils[wx]",
+    "playwright>=1.58.0",
+    "pyinstaller>=6.18.0",
+]
+
+[tool.uv.sources]
+dust-utils = { git = "https://github.com/StepDust/dust_utils.git", rev = "main" }
