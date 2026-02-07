@@ -8,8 +8,9 @@
 
 # 技术说明
 1. 项目基于 Python 开发
-2. 项目依赖的第三方库请参考 requirements.txt 文件
-3. 本来以为直接requests就可以了，然后发现它做了防盗链，就不得不用playwright来模拟浏览器请求
+2. 项目依赖的第三方库请使用```uv sync```还原
+3. 用了我另一个工具库[dust_utils](https://github.com/StepDust/dust_utils)，凑合用吧
+4. 本来以为直接requests就可以了，然后发现它做了防盗链，就不得不用playwright来模拟浏览器请求
 
 # 使用说明
 1. 接口地址：https://re.bluepoch.com/activity/official/websites/picture/query
