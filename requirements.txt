@@ -1,5 +1,0 @@
-requests
-colorama
-wcwidth
-wxPython
-playwright
