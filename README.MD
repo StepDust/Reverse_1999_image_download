@@ -33,13 +33,32 @@
 
 # 源码运行说明
 1. 安装python
-2. 安装依赖库
-    - pip install -r requirements.txt
+2. 安装uv
+```
+pip install uv
+```
+3. 创建虚拟环境
+```
+uv venv
+```
+4. 进入虚拟环境
+```
+.venv\Scripts\activate
+```
+5. 还原依赖
+```
+uv sync
+```
 3. 运行软件
-    - python Reverse_1999_image_download.py
+```
+python main.py
+```
 4. 打包软件
-    - pyinstaller Reverse_1999_image_download.spec
     - 打包出来的软件在dist文件夹下
+```
+pyinstaller main.spec
+```
+
 
 # 软件截图
 ![PixPin_2025-10-15_12-04-46.png](./README_IMAGE/PixPin_2026-02-07_11-14-02.png)
